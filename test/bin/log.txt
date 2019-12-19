@@ -1,0 +1,3 @@
+04:10-09:59:29(213):[01220] |make ssim map1(984.595ms), make ssim map2(554.476ms), similar(2097.45ms)
+04:10-10:00:25(498):[02508] |make ssim map1(227.169ms), make ssim map2(238.84ms), similar(261.65ms)
+04:10-10:04:31(198):[04504] |make ssim map1(97.9949ms), make ssim map2(97.656ms), similar(150.86ms)

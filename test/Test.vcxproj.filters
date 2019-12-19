@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{3a5142f9-d409-4c95-b952-04b964cb64e8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ab5c4770-4e81-4ae0-b589-2949f5f6c33b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="PorBase">
+      <UniqueIdentifier>{fe679cde-735d-4f58-9baa-583a2f250496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PorBase\Logger">
+      <UniqueIdentifier>{a93c6a26-5421-4a2d-aa04-6749f6b48250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PorBase\Math">
+      <UniqueIdentifier>{2c40ca45-08c6-4ed3-8349-0e41ebe302cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PorBase\ImageProc">
+      <UniqueIdentifier>{b9ab1392-0243-49e4-a360-296cb2adac6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PorBase\App">
+      <UniqueIdentifier>{76277f57-d969-4c8e-a94b-230a1625fd98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_test.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ssim_processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\logger\logger.cpp">
+      <Filter>PorBase\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\proc\image_proc.cpp">
+      <Filter>PorBase\ImageProc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\proc\memory_pool.cpp">
+      <Filter>PorBase\ImageProc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\app\base_disk.cpp">
+      <Filter>PorBase\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\struct.cpp">
+      <Filter>PorBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\base.cpp">
+      <Filter>PorBase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="test.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ssim_processor.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\logger\logger.h">
+      <Filter>PorBase\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\define.h">
+      <Filter>PorBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\types.h">
+      <Filter>PorBase</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\proc\image_proc.h">
+      <Filter>PorBase\ImageProc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\proc\image_proc-inl.h">
+      <Filter>PorBase\ImageProc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\base.h">
+      <Filter>PorBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\math\squareroots.h">
+      <Filter>PorBase\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\proc\memory_pool.h">
+      <Filter>PorBase\ImageProc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\app\base_disk.h">
+      <Filter>PorBase\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\struct.h">
+      <Filter>PorBase</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
